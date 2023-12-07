@@ -1,0 +1,14 @@
+name: "Selenium Addon"
+description: "A local selenium addon"
+version: "0.0.3"
+slug: "selenium_addon"
+init: false
+host_network: true
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+ports:
+  4444/tcp: 4444
